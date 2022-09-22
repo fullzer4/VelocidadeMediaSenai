@@ -56,7 +56,7 @@ a{
     align-items: center;
     justify-content: center;
     height: 75vh;
-    gap: 45px;
+    gap: 5px;
 }
 
 .box{
@@ -126,4 +126,22 @@ footer{
     align-items: center;
     padding-left: 30px;
     color: white;
+}
+
+h3{
+    font-size: 4rem;
+    color: #FF9E7B;
+}
+
+p{
+    font-size: 1.25rem;
+    color: #FF9E7B;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 25px;
+    gap: 45px;
+    align-items: center;
 }
