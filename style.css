@@ -4,11 +4,13 @@ html, body{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    overflow: hidden;
 }
 
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 button{
@@ -30,6 +32,7 @@ h1{
     display: flex;
     align-items: center;
     padding-left: 10px;
+    color: #FF9E7B;
 }
 
 .nav{
@@ -46,3 +49,81 @@ a{
     text-decoration: none;
 }
 
+.calculo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    gap: 45px;
+}
+
+.box{
+    width: 30%;
+    border: 2px solid #FF9E7B;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h2{
+    color: #FF9E7B;
+    background-color: #F5C88C;
+    padding-left: 10px;
+    border-radius: 10px;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+}
+
+input{
+    border: 1px solid #FF9E7B;
+    border-radius: 10px;
+    height: 4vh;
+    padding-left: 15px;
+    transform: translateX(10px);
+}
+
+button{
+    background-color: #DEB887;
+    border: 1px solid #FF9E7B;
+    width: 5vw;
+    height: 4vh;
+    color: #FF9E7B;
+    transform: translateX(10px);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#result{
+    background-color: #F5C88C;
+}
+
+#resultUser{
+    max-width: 100%;
+    min-height: 20vh;
+    border: 2px solid #FF9E7B;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#eita{
+    gap: 10px;
+}
+
+footer{
+    width: 100%;
+    height: 12.5vh;
+    background-color: #FF9E7B;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 30px;
+    color: white;
+}

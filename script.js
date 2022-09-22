@@ -1,9 +1,12 @@
+Array = []
 calcular = () =>{
     var result = document.getElementById("result").value = document.getElementById("valorD").value / document.getElementById("interT").value
-    const div = document.getElementById("resultUser");
+    const div = document.getElementById("eita");
     if(!isNaN(result) === true){
+        Array.push(result)
+        console.log(Array)
         let html = "<p>"+ result +"</p>";
-        div.insertAdjacentHTML("afterend", html);
+        div.insertAdjacentHTML("afterbegin", html);
     }else{
         return
     }

@@ -16,20 +16,20 @@
         </nav>
     </header>
     <div class="calculo">
-        <div class="calculadora">
+        <div class="box">
             <h2>Cálculo</h2>
-            <input id="valorD">
-            <input id="interT">
+            <input id="valorD" type="number" placeholder="Informe o valor do deslocamento">
+            <input id="interT" type="number" placeholder="Informe o intervalo de tempo">
             <div>
                 <button onclick="limpar()">Limpar</button>
                 <button onclick="calcular()">Calcular</button>
             </div>
-            <input id="result">
+            <input id="result" type="number" readonly>
         </div>
-        <div class="resultado">
+        <div class="box">
             <h2>Resultados</h2>
             <div id="resultUser">
-
+                <div id="eita"></div>
             </div>
         </div>
     </div>
@@ -38,7 +38,7 @@
             <li>Senai SC</li>
             <li>Curso de Desenvolvimento de Sistemas</li>
             <li>Lógica de Programa</li>
-            <li>Meu nome</li>
+            <li>Gabriel Pelizzaro Pereira</li>
         </ul>
     </footer>
     <script src="./script.js"></script>
